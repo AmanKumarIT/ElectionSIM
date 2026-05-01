@@ -1,0 +1,13 @@
+venv
+.venv
+
+node_modulus
+
+__pycache__
+.pyc
+
+.env
+.env.local
+.env.*
+
+.next
