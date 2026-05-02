@@ -29,4 +29,4 @@ COPY . .
 # Expose port (Render / Docker standard)
 EXPOSE 8000
 
-CMD ["gunicorn", "your_project.wsgi:application", "--bind", "0.0.0.0:10000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0","--port","10000"]
